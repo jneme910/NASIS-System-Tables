@@ -1,0 +1,107 @@
+# BEGIN NRCS SQL KC-NITC-HA  adds 
+10.203.23.56 	NRCDboxc001 		dboxc001 	NRCDboxc001.EDC.DS1.USDA.GOV		# KCHADev Win2016 Cluster
+10.203.23.15   	NRCDBox0007		DBox07		NRCDBox0007.EDC.DS1.USDA.GOV		# KCHADev Win2016 Physical Machine
+10.203.23.20   	NRCDBox0014		DBox14		NRCDBox0014.EDC.DS1.USDA.GOV		# KCHADev Win2016 Physical Machine
+10.203.23.25	NRCdAdm			NRCdAdm		NRCdAdm.EDC.DS1.USDA.GOV		# HADev Win2016 Cluster Instance
+10.203.23.50	NRCdboxiXxDev3A		Dev3A	xxDev3A	NRCdboxiXxDev3A.EDC.DS1.USDA.GOV	# HADev Win2016 Cluster Instance
+10.203.23.60	NRCdboxiCpDev0A		CpDev0A		NRCdboxiCpDev0A.EDC.DS1.USDA.GOV	# HADev Win2016 Cluster Instance
+10.203.23.61	NRCdboxiCpDev1A		CpDev1A		NRCdboxiCpDev1A.EDC.DS1.USDA.GOV	# HADev Win2016 Cluster Instance
+10.203.23.62	NRCdboxiCpDev2A		CpDev2A		NRCdboxiCpDev2A.EDC.DS1.USDA.GOV	# HADev Win2016 Cluster Instance
+10.203.23.63	NRCdboxiCpSan3A		CpSan3A		NRCdboxiCpSan3A.EDC.DS1.USDA.GOV	# HADev Win2016 Cluster Instance
+10.203.23.70	NRCdboxiScDev0A		ScDev0A		NRCdboxiScDev0A.EDC.DS1.USDA.GOV	# HADev Win2016 Cluster Instance
+10.203.23.71	NRCdboxiScDev1A		ScDev1A		NRCdboxiScDev1A.EDC.DS1.USDA.GOV	# HADev Win2016 Cluster Instance
+10.203.23.72	NRCdboxiScDev2A		ScDev2A		NRCdboxiScDev2A.EDC.DS1.USDA.GOV	# HADev Win2016 Cluster Instance
+10.203.23.73	NRCdboxiScSan3A		ScSan3A		NRCdboxiScSan3A.EDC.DS1.USDA.GOV	# HADev Win2016 Cluster Instance
+10.203.23.80	NRCdboxiMgDev0A		MgDev0A		NRCdboxiMgDev0A.EDC.DS1.USDA.GOV	# HADev Win2016 Cluster Instance
+10.203.23.84	NRCdboxiMgDev0B		MgDev0B		NRCdboxiMgDev0B.EDC.DS1.USDA.GOV	# HADev Win2016 Cluster Instance
+10.203.23.81	NRCdboxiMgDev1A		MgDev1A		NRCdboxiMgDev1A.EDC.DS1.USDA.GOV	# HADev Win2016 Cluster Instance
+10.203.23.82	NRCdboxiMgDev2A		MgDev2A		NRCdboxiMgDev2A.EDC.DS1.USDA.GOV	# HADev Win2016 Cluster Instance
+10.203.23.83	NRCdboxiMgSan3A		MgSan3A		NRCdboxiMgSan3A.EDC.DS1.USDA.GOV	# HADev Win2016 Cluster Instance
+10.203.23.90	NRCdboxiXxDba0A		Dba0A	xxDBA0A	NRCdboxiXxDba0A.EDC.DS1.USDA.GOV	# HADev Win2016 Cluster Instance
+10.203.23.91	NRCdboxiXxDba1A		Dba1A	xxDBA1A	NRCdboxiXxDba1A.EDC.DS1.USDA.GOV	# HADev Win2016 Cluster Instance
+10.203.23.92	NRCdboxiXxDba2A		Dba2A	xxDBA2A	NRCdboxiXxDba2A.EDC.DS1.USDA.GOV	# HADev Win2016 Cluster Instance
+10.203.23.93	NRCdboxiXxDba3A		Dba3A	xxDBA3A	NRCdboxiXxDba3A.EDC.DS1.USDA.GOV	# HADev Win2016 Cluster Instance
+
+10.203.46.20 	NRCtboxc002 		tboxc002 	NRCtboxc002.EDC.DS1.USDA.GOV		# HAPreProd Win2016 Cluster
+10.203.46.21 	NRCtboxc003		tboxc003	NRCtboxc003.EDC.DS1.USDA.GOV		# HAPreProd Win2016 Cluster
+10.203.46.29 	NRCtbox0010 		tbox10		NRCtbox0010.EDC.DS1.USDA.GOV		# HAPreProd Win2016 Physical Machine
+10.203.46.25 	NRCtbox0020 		tbox20		NRCtbox0020.EDC.DS1.USDA.GOV		# HAPreProd Win2016 Physical Machine
+10.203.46.26 	NRCtbox0021 		tbox21		NRCtbox0021.EDC.DS1.USDA.GOV		# HAPreProd Win2016 Physical Machine
+10.203.46.27 	NRCtbox0022 		tbox22		NRCtbox0022.EDC.DS1.USDA.GOV		# HAPreProd Win2016 Physical Machine
+10.203.46.43   	NRCTADM					NRCTADM.EDC.DS1.USDA.GOV		# HAPreProd Win2016 Cluster Instance
+10.203.46.13 	NRCtboxiAdAdm0A		AdAdm0A 	NRCtboxiAdAdm0A.EDC.DS1.USDA.GOV	# HAPreProd Win2016 Cluster Instance
+10.203.46.53 	NRCtboxiMtQat0A		MtQat0A		NRCtboxiMtQat0A.EDC.DS1.USDA.GOV	# HAPreProd Win2016 Cluster Instance
+10.203.46.54	NRCtboxixxDSO0A  	DSO0A	xxDSO0A NRCtboxixxDSO0A.EDC.DS1.USDA.GOV	# HAPreProd Win2016 Cluster Instance
+10.203.46.55 	NRCtboxiXxUat1A		Uat1A	xxUat1A	NRCtboxiXxUat1A.EDC.DS1.USDA.GOV	# HAPreProd Win2016 Cluster Instance
+10.203.46.58 	NRCtboxiXxUat2B 	Uat2B 	xxUat2B	NRCtboxixxDSA0A.EDC.DS1.USDA.GOV	# HAPreProd Win2016 Cluster Instance
+10.203.46.59	NRCtboxiXxQat3A		Qat3A  	xUat3A	NRCtboxiXxQat3A.EDC.DS1.USDA.GOV	# HAPreProd Win2016 Cluster Instance
+10.203.46.66 	NRCtboxiCpLod2A		CpLod2A		NRCtboxiCpLod2A.EDC.DS1.USDA.GOV	# HAPreProd Win2016 Cluster Instance
+10.203.46.67 	NRCtboxiCpLod1A 	CpLod1A		NRCtboxiCpLod1A.EDC.DS1.USDA.GOV	# HAPreProd Win2016 Cluster Instance
+10.203.46.68 	NRCtboxiCpInt1A 	CpInt1A		NRCtboxiCpInt1A.EDC.DS1.USDA.GOV	# HAPreProd Win2016 Cluster Instance
+10.203.46.69 	NRCtboxiCpInt0A 	CpInt0A		NRCtboxiCpInt0A.EDC.DS1.USDA.GOV	# HAPreProd Win2016 Cluster Instance
+10.203.46.77 	NRCtboxiScLod1A		ScLod1A		NRCtboxiScLod1A.EDC.DS1.USDA.GOV	# HAPreProd Win2016 Cluster Instance 
+10.203.46.78 	NRCtboxiScInt1A 	ScInt1A		NRCtboxiScInt1A.EDC.DS1.USDA.GOV	# HAPreProd Win2016 Cluster Instance 
+10.203.46.79 	NRCtboxiScInt0A 	ScInt0A		NRCtboxiScInt0A.EDC.DS1.USDA.GOV	# HAPreProd Win2016 Cluster Instance
+10.203.46.87 	NRCtboxiMgLod1A 	MgLod1A		NRCtboxiMgLod1A.EDC.DS1.USDA.GOV	# HAPreProd Win2016 Cluster Instance
+10.203.46.88 	NRCtboxiMgInt1A 	MgInt1A		NRCtboxiMgInt1A.EDC.DS1.USDA.GOV	# HAPreProd Win2016 Cluster Instance
+10.203.46.89 	NRCtboxiMgInt0A 	MgInt0A		NRCtboxiMgInt0A.EDC.DS1.USDA.GOV	# HAPreProd Win2016 Cluster Instance
+10.203.46.94 	NRCtboxiMgQat2A 	MgQat2A		NRCtboxiMgQat2A.EDC.DS1.USDA.GOV	# HAPreProd Win2016 Cluster Instance
+10.203.46.95 	NRCtboxiScQat2A 	ScQat2A		NRCtboxiScQat2A.EDC.DS1.USDA.GOV	# HAPreProd Win2016 Cluster Instance 
+10.203.46.96 	NRCtboxiCpQat2A 	CpQat2A		NRCtboxiCpQat2A.EDC.DS1.USDA.GOV	# HAPreProd Win2016 Cluster Instance
+10.203.46.97 	NRCtboxiMgQat1A 	MgQat1A		NRCtboxiMgQat1A.EDC.DS1.USDA.GOV	# HAPreProd Win2016 Cluster Instance
+10.203.46.98 	NRCtboxiScQat1A 	ScQat1A		NRCtboxiScQat1A.EDC.DS1.USDA.GOV	# HAPreProd Win2016 Cluster Instance
+10.203.46.99	NRCtboxiCpQat1A 	CpQat1A		NRCtboxiCpQat1A.EDC.DS1.USDA.GOV	# HAPreProd Win2016 Cluster Instance
+10.203.46.62 	NRCtboxiMgCID3A 	MgCID3A		NRCtboxiMgCID3A.EDC.DS1.USDA.GOV	# HAPreProd Win2016 Cluster Instance
+10.203.46.61 	NRCtboxiScCID3A 	ScCID3A		NRCtboxiScCID3A.EDC.DS1.USDA.GOV	# HAPreProd Win2016 Cluster Instance
+10.203.46.60	NRCtboxiCpCID3A 	CpCID3A		NRCtboxiCpCID3A.EDC.DS1.USDA.GOV	# HAPreProd Win2016 Cluster Instance
+10.203.46.65 	NRCtboxiMgCID3B 	MgCID3B		NRCtboxiMgCID3B.EDC.DS1.USDA.GOV	# HAPreProd Win2016 Cluster Instance
+10.203.46.64 	NRCtboxiScCID3B 	ScCID3B		NRCtboxiScCID3B.EDC.DS1.USDA.GOV	# HAPreProd Win2016 Cluster Instance
+10.203.46.63	NRCtboxiCpCID3B 	CpCID3B		NRCtboxiCpCID3B.EDC.DS1.USDA.GOV	# HAPreProd Win2016 Cluster Instance
+10.203.46.93 	NRCtboxiMgQat0B 	MgQat0B		NRCtboxiMgQat0B.EDC.DS1.USDA.GOV	# HAPreProd Win2016 Cluster Instance
+
+10.203.20.110	NRCpboxc004 		pboxc004	NRCpboxc004.EDC.DS1.USDA.GOV		# KCHAPRD Win2016 Cluster 
+10.203.20.111	NRCpboxc005 		pboxc005	NRCpboxc005.EDC.DS1.USDA.GOV		# KCHAPRD Win2016 Cluster 
+10.203.20.105	NRCpbox0015 		pbox15		NRCpbox0015.EDC.DS1.USDA.GOV		# KCHAPRD Win2016 Physical Machine
+10.203.20.106	NRCpbox0016 		pbox16		NRCpbox0016.EDC.DS1.USDA.GOV		# KCHAPRD Win2016 Physical Machine
+10.203.20.107	NRCpbox0017 		pbox17		NRCpbox0017.EDC.DS1.USDA.GOV		# KCHAPRD Win2016 Physical Machine
+10.203.20.108	NRCpbox0018 		pbox18		NRCpbox0018.EDC.DS1.USDA.GOV		# KCHAPRD Win2016 Physical Machine
+10.203.20.109	NRCpbox0019 		pbox19		NRCpbox0019.EDC.DS1.USDA.GOV		# KCHAPRD Win2016 Physical Machine
+10.203.20.49	NRCpboxiMtPrd1A		MtPrd1A		NRCpboxiMtPrd1A.EDC.DS1.USDA.GOV	# KCHAPPD Win2016 Cluster Instance
+10.203.20.53	NRCpboxiMtPrd2A		MtPrd2A		NRCpboxiMtPrd2A.EDC.DS1.USDA.GOV	# KCHAPPD Win2016 Cluster Instance
+10.203.20.50	NRCpboxiXxDmo1A		Dmo1A XxDmo1A	NRCpboxiXxDmo1A.EDC.DS1.USDA.GOV	# KCHAPPD Win2016 Cluster Instance
+10.203.20.51	NRCpboxiXxUat1C		Uat1C XxUat1C   NRCpboxiXxUat1C.EDC.DS1.USDA.GOV	# KCHAPPD Win2016 Cluster Instance
+10.203.20.59	NRCpboxiBpSpa1A		BpSpa1A		NRCpboxiBpSpa1A.EDC.DS1.USDA.GOV	# KCHAPPD Win2016 Cluster Instance
+10.203.20.60	NRCpboxiCpTrn1A		CpTrn1A		NRCpboxiCpTrn1A.EDC.DS1.USDA.GOV	# KCHAPPD Win2016 Cluster Instance
+10.203.20.61	NRCpboxiMgTrn1A		MgTrn1A		NRCpboxiMgTrn1A.EDC.DS1.USDA.GOV	# KCHAPPD Win2016 Cluster Instance
+10.203.20.58	NRCpboxiMgTrn2A		MgTrn2A		NRCpboxiMgTrn2A.EDC.DS1.USDA.GOV	# KCHAPPD Win2016 Cluster Instance
+10.203.20.62	NRCpboxiScTrn1A		ScTrn1A		NRCpboxiScTrn1A.EDC.DS1.USDA.GOV	# KCHAPPD Win2016 Cluster Instance
+
+10.203.20.92   	NRCPADM			NRCPADM.EDC.DS1.USDA.GOV	# KCHAProd Cluster Instance
+10.203.20.97   	NRCPADM2		NRCPADM2.EDC.DS1.USDA.GOV	# KCHAProd Cluster Instance
+10.203.20.90   	NRCPCP			NRCPCP.EDC.DS1.USDA.GOV		# KCHAProd Cluster Instance
+10.203.20.93   	NRCPCP2			NRCPCP2.EDC.DS1.USDA.GOV	# KCHAProd Cluster Instance
+10.203.20.91   	NRCPMG			NRCPMG.EDC.DS1.USDA.GOV		# KCHAProd Cluster Instance
+10.203.20.94   	NRCPMG2			NRCPMG2.EDC.DS1.USDA.GOV	# KCHAProd Cluster Instance
+10.203.20.89	NRCpboxiMgPrd3A		MgPrd3A		NRCpboxiMgPrd3A.EDC.DS1.USDA.GOV	# KCHAPPD Win2016 Cluster Instance
+10.203.20.95   	NRCPSCI			NRCPSCI.EDC.DS1.USDA.GOV	# KCHAProd Cluster Instance
+10.203.20.96   	NRCPSCI2		NRCPSCI2.EDC.DS1.USDA.GOV	# KCHAProd Cluster Instance
+10.203.20.98   	NRCPGEO			NRCPGEO.EDC.DS1.USDA.GOV	# KCHAProd Cluster Instance
+10.203.20.99   	NRCPSEC			NRCPSEC.EDC.DS1.USDA.GOV	# KCHAProd Cluster Instance
+# END NRCS SQL KC-NITC-HA  adds 
+
+# BEGIN NRCS SQL Failover  adds 
+10.200.158.33  	NRCPBox0001	pBox01	NRCPBox0001.EDC.DS1.USDA.GOV	# KCHAProd Physical Machine
+10.200.158.31  	NRCPBox0002	pBox02	NRCPBox0002.EDC.DS1.USDA.GOV	# KCHAProd Physical Machine
+10.200.158.29  	NRCPBox0003	pBox03	NRCPBox0003.EDC.DS1.USDA.GOV	# KCHAProd Physical Machine
+10.200.158.49	NRCpboxiMtStl1A	MtStl1A	NRCpboxiMtStl1A.EDC.DS1.USDA.GOV	# KCHASTL Win2016 Cluster Instance
+10.200.158.53  	NRCpBoxiMtStl2A	MtStl2A	NRCpBoxiMtStl2A.EDC.DS1.USDA.GOV	# KCHASTL Win2016 Cluster Instance
+10.200.158.40	NRCpboxiMgStl2	MgStl2	NRCpboxiMgStl2.EDC.DS1.USDA.GOV		# KCHASTL Win2016 Cluster Instance
+10.200.158.37	NRCpboxiMgStl3A	MgStl3A	NRCpboxiMgStl3A.EDC.DS1.USDA.GOV	# KCHASTL Win2016 Cluster Instance
+10.200.158.41	NRCpboxiCpStl2	CpStl2	NRCpboxiCpStl2.EDC.DS1.USDA.GOV		# KCHASTL Win2016 Cluster Instance
+10.200.158.42	NRCpboxiScStl2	ScStl2	NRCpboxiScStl2.EDC.DS1.USDA.GOV		# KCHASTL Win2016 Cluster Instance
+10.200.158.43	NRCpboxiGeStl	GeStl	NRCpboxiGeStl.EDC.DS1.USDA.GOV		# KCHASTL Win2016 Cluster Instance
+10.200.158.21	NRCfMg			NRCfMg.EDC.DS1.USDA.GOV		# KCHASTL Win2016 Cluster Instance
+10.200.158.20	NRCfCp			NRCfCp.EDC.DS1.USDA.GOV		# KCHASTL Win2016 Cluster Instance
+10.200.158.22	NRCfAdm			NRCfAdm.EDC.DS1.USDA.GOV		# KCHASTL Win2016 Cluster Instance
+10.200.158.23	NRCfSCi			NRCfSci.EDC.DS1.USDA.GOV		# KCHASTL Win2016 Cluster Instance
+# BEGIN NRCS SQL Failover
